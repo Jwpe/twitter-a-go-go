@@ -22,6 +22,9 @@ type Configuration struct {
 
 func getConfig(configFile string) Configuration {
 
+    /* extract sensitive config vars from a configuration file that is not
+    stored in source control, and return them as a Configuration object */
+
     file, _ := os.Open(configFile)
     contents, _ := ioutil.ReadAll(file)
 
