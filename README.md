@@ -10,7 +10,7 @@ Request the latest Tweet for user 'iheartgo', using configuration file `conf.jso
 go run main.go -u iheartgo -c conf.json
 ```
 
-Arguments:
+### Arguments:
 
 - `-u`: Twitter screen name of the desired (non-protected) user. Default: Jwpe
 - `-c`: Path to configuration file from script location, e.g. Default: `config.json`
