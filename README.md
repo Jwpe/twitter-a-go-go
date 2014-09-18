@@ -12,5 +12,5 @@ go run main.go -u iheartgo -c conf.json
 
 Arguments:
 
-`-u`: Twitter screen name of the desired (non-protected) user. Default: Jwpe
-`-c`: Path to configuration file from script location, e.g. Default: `config.json`
+- `-u`: Twitter screen name of the desired (non-protected) user. Default: Jwpe
+- `-c`: Path to configuration file from script location, e.g. Default: `config.json`
